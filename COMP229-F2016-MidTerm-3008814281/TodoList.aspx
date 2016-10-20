@@ -1,7 +1,9 @@
 ﻿<%@ Page Title="Todo List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoList.aspx.cs" Inherits="COMP229_F2016_MidTerm_3008814281.TodoList" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <h3>
+   <div class="container">
+    <div class="row">
+     <h3>
     <asp:Label ID="TodoLis" runat="server" ></asp:Label>
     </h3>
     <asp:GridView ID="TodoDetailsView" runat="server" AutoGenerateColumns="false">
@@ -14,4 +16,6 @@
             <asp:BoundField DataField="delete" HeaderText="delete" Visible="true" />
         </Columns>
     </asp:GridView>
+</div>
+   </div>
 </asp:Content>
