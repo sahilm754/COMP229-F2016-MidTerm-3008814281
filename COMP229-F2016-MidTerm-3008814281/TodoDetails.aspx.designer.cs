@@ -7,11 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP229_F2016_MidTerm_3008814281
-{
-
-
-    public partial class TodoDetails
-    {
+namespace COMP229_F2016_MidTerm_3008814281 {
+    
+    
+    public partial class TodoDetails {
+        
+        /// <summary>
+        /// TodoDetail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TodoDetail;
     }
 }

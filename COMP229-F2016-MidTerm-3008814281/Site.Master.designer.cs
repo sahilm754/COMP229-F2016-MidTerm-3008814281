@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP229_F2016_MidTerm_3008814281
-{
-
-
-    public partial class Site
-    {
-
+namespace COMP229_F2016_MidTerm_3008814281 {
+    
+    
+    public partial class Site {
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -22,25 +20,25 @@ namespace COMP229_F2016_MidTerm_3008814281
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
-        /// home control.
+        /// todoList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl todoList;
+        
         /// <summary>
-        /// todo control.
+        /// todoDetails control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl todo;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl todoDetails;
+        
         /// <summary>
         /// MainContent control.
         /// </summary>

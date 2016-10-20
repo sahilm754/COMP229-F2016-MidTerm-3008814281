@@ -26,11 +26,12 @@ namespace COMP229_F2016_MidTerm_3008814281
         {
             switch (Page.Title)
             {
-                case "Home Page":
-                    home.Attributes.Add("class", "active");
-                    break;
+                
                 case "Todo List":
-                    todo.Attributes.Add("class", "active");
+                    todoList.Attributes.Add("class", "active");
+                    break;
+                case "Todo Details":
+                    todoDetails.Attributes.Add("class", "active");
                     break;
             }
         }

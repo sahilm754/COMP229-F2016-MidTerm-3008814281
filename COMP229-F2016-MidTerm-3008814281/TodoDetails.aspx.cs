@@ -11,6 +11,7 @@ namespace COMP229_F2016_MidTerm_3008814281
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            TodoDetail.Text = "To Do List";
 
         }
     }
