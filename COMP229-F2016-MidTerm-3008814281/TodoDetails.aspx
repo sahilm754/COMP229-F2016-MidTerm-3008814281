@@ -3,11 +3,15 @@
     <asp:Label ID="TodoDetail" runat="server" ></asp:Label>
     <h3>
         Todo Name
-        <input id="Todo Name" type="text" />
+        <input id="TodoName" type="text" />
+        <br>
         Todo Notes
-        <input id="Todo Name" type="text" />
-        <input id="Checkbox1" type="checkbox" /> Completed
+        <input id="TodoNotes" type="text" />
+        <br>
+        <input id="Completed" type="checkbox" /> Completed
+        
     </h3>
-    <input id="Submit1" type="submit" value="submit" Text="Cancel" />
-    <input id="Submit1" type="submit" value="submit" Text="Save"/>
+    
+    <input id="Cancel" type="submit" value="submit" Text="Cancel" />
+    <input id="Save" type="submit" value="submit" Text="Save"/>
 </asp:Content>
